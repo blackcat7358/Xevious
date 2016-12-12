@@ -45,33 +45,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
      <Compile Include="Assets\Miyata\script\Bakyura.cs" />
      <Compile Include="Assets\Miyata\script\Gidosupario.cs" />
      <Compile Include="Assets\Miyata\script\Jiara.cs" />
-     <Compile Include="Assets\Miyata\script\Toroid.cs" />
      <Compile Include="Assets\Miyata\script\Zakato.cs" />
      <Compile Include="Assets\Miyata\script\taruken.cs" />
      <Compile Include="Assets\Miyata\script\toroido.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
-=======
      <Compile Include="Assets\Yoshinaga\script\Bullet.cs" />
      <Compile Include="Assets\Yoshinaga\script\Player_move.cs" />
->>>>>>> Yoshinaga
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
-<<<<<<< HEAD
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
-=======
->>>>>>> Yoshinaga
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
  </Reference>
