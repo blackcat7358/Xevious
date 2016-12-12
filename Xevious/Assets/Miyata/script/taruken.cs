@@ -24,6 +24,8 @@ public class taruken : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        Vector2 zahyou = transform.position;
         Idou();//移動プログラム
 
         if (jyoutai == 1)
@@ -45,7 +47,7 @@ public class taruken : MonoBehaviour {
             }
         }
 
-        if (move > 1000)//画面外に出たら消したい
+        if (zahyou.y > 4.75f)
         {
             Destroy(gameObject);
         }
