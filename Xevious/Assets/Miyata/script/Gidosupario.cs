@@ -14,9 +14,11 @@ public class Gidosupario : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
+        Jiki = GameObject.Find("Player");
         var vec = (Jiki.transform.position - Teki.transform.position).normalized;
         var angle = (Mathf.Atan2(vec.y, vec.x) * Mathf.Rad2Deg) - 90.0f;
         Teki.transform.rotation = Quaternion.Euler(0.0f, 0.0f, angle);
+        
 
 
     }

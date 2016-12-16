@@ -22,8 +22,14 @@ public class taruken : MonoBehaviour
     {
         Player = GameObject.Find("Player");
         tarken = Player.transform.position;
-        if (tarken.x < this.transform.position.x){
-            transform.localScale = new Vector3(-1, transform.localScale.y , transform.localScale.z);
+        if (tarken.x < this.transform.position.x)
+        {
+            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+        }
+
+        if (Player.transform.position.y > 0)
+        {
+            tarken.y *= -1;
         }
         /* if (Player_move.x_zahyou > transform.position.x)
          {
@@ -44,18 +50,21 @@ public class taruken : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, new Vector2(tarken.x, tarken.y), speed * Time.deltaTime);
 
-            if (transform.position.y < Player.transform.position.y)
+            if (transform.position.y <= Player.transform.position.y)
             {
                 flg = 1;
             }
-        }else if (flg == 1)
+        }
+        else if (flg == 1)
         {
             transform.position = Vector2.MoveTowards(transform.position, new Vector2(tarken.x, tarken.y), -speed * Time.deltaTime);
+
+            if (transform.position.y > 4.75f)
+            {
+                Delete();
+            }
         }
-        if (-3.5f> transform.position.y)
-        {
-            Destroy(gameObject);
-        }
+
         //Vector2 zahyou = transform.position;
         /* Idou();//移動プログラム
               if (jyoutai == 1)
@@ -88,5 +97,10 @@ public class taruken : MonoBehaviour
          transform.Translate(1 * speed * Time.deltaTime, -1 * speed2* Time.deltaTime, 0);
          move++;
      }*/
+    }
+
+    void Delete()
+    {
+        Destroy(gameObject);
     }
 }
