@@ -48,6 +48,7 @@ public class toroido : MonoBehaviour {
 
         if (zahyou.y < -4.75f)
         {
+            Wave.kazu--;
             Destroy(gameObject);
         }
 
@@ -58,4 +59,12 @@ public class toroido : MonoBehaviour {
         transform.Translate(1 * speed * Time.deltaTime, -1 * Time.deltaTime, 0);
         move++;
     }
+
+    void OnTriggerEnter2D(Collider2D c)
+    {
+        Wave.kazu--;
+        Destroy(gameObject);        //自機を削除
+        //Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
+    }
+
 }

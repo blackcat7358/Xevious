@@ -7,8 +7,12 @@ public class Player_move : MonoBehaviour {
     public static float x_zahyou;
     public static float y_zahyou;
 
-	public int cnt;
+    public int cnt;
+
+    public float TimeOut = 0.5f;
+    public float TimeElapsed;
 	public GameObject bullet;
+
 
     // Use this for initialization
     void Start () {
@@ -20,14 +24,16 @@ public class Player_move : MonoBehaviour {
 	void Update () {
 		move ();
 		cnt++;
+
+        TimeElapsed += Time.deltaTime;
 		if(Input.GetKey(KeyCode.Space))
 		{
-			if(cnt>=10)
-			{
-				Instantiate (bullet,transform.position, transform.rotation);
-				cnt=0;
-			}
-		}
+            if (TimeElapsed >= TimeOut)
+            {
+                    Instantiate(bullet, transform.position, transform.rotation);
+                TimeElapsed = 0;
+            }
+        }
 
         Vector2 zahyou = transform.position;
         x_zahyou = zahyou.x;
@@ -61,5 +67,13 @@ public class Player_move : MonoBehaviour {
 		} else if (Input.GetKey ("left")) {
 			transform.Translate (-1 * speed * Time.deltaTime, 0,0);
 		}
-	}
+    }
+
+void OnTriggerEnter2D(Collider2D c)
+    {
+        
+        Destroy(gameObject);        //自機を削除
+        //Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
+    }
+
 }

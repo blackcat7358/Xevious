@@ -16,4 +16,12 @@ public class Zakato : MonoBehaviour {
         Destroy(gameObject);
 
     }
+
+    void OnTriggerEnter2D(Collider2D c)
+    {
+        Wave.kazu--;
+        Destroy(gameObject);        //自機を削除
+        //Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
+    }
+
 }

@@ -73,6 +73,7 @@
     <Compile Include="Assets\Miyata\script\Emitter.cs" />
     <Compile Include="Assets\Miyata\script\Gidosupario.cs" />
     <Compile Include="Assets\Miyata\script\Jiara.cs" />
+    <Compile Include="Assets\Miyata\script\Wave.cs" />
     <Compile Include="Assets\Miyata\script\Zakato.cs" />
     <Compile Include="Assets\Miyata\script\taruken.cs" />
     <Compile Include="Assets\Miyata\script\toroido.cs" />
