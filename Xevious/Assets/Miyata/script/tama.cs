@@ -1,0 +1,34 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class tama : MonoBehaviour {
+
+    public GameObject Teki;
+    public GameObject Jiki;
+
+    // Use this for initialization
+    void Start () {
+        Jiki = GameObject.Find("Player(Clone)");
+        var vec = (Jiki.transform.position - Teki.transform.position).normalized;
+        var angle = (Mathf.Atan2(vec.y, vec.x) * Mathf.Rad2Deg) - 90.0f;
+        Teki.transform.rotation = Quaternion.Euler(0.0f, 0.0f, angle);
+    }
+
+    // Update is called once per frame
+    void Update () {
+        Vector2 zahyou = transform.position;
+
+        Idou();
+
+        if (zahyou.y < -4.75f)
+        {
+            Destroy(gameObject);
+        }
+
+    }
+    void Idou()
+    {
+        transform.Translate(/*3 * speed * Time.deltaTime*/0, 5 * Time.deltaTime, 0);
+    }
+
+}

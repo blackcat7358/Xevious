@@ -7,7 +7,12 @@ public class taruken : MonoBehaviour
     public float move = 0;//動いた距離
     public float speed;//進行方向 1:左にいるとき -1:右にいるとき
     public float speed2;
+    public float speed3;
+    public float speedy;
     public float jyoutai = 0;//状態管理 0:左から接近 1:右から接近 2:右に回避 3:左に回避
+    public float randam;
+
+    public GameObject tama;
 
 
     /* public float speed = 5.0f;
@@ -33,14 +38,20 @@ public class taruken : MonoBehaviour
          {
              tarken.y *= -1;
          }*/
+        randam = Random.Range(1.5f,-4.0f);
+        speed2 = Random.Range(-1.0f,0);
+        speed3 = Random.Range(0, 1.0f);
+
+        speedy = Random.Range(1.0f, 0);
+
+        speed = 1;
+
         if (Player_move.x_zahyou > transform.position.x)
         {
-            speed = 1;
             jyoutai = 0;
         }
         else if (Player_move.x_zahyou < transform.position.x)
         {
-            speed = -1;
             jyoutai = 1;
         }
     }
@@ -68,23 +79,36 @@ public class taruken : MonoBehaviour
         }*/
 
         Vector2 zahyou = transform.position;
-        Idou();//移動プログラム
-        if (jyoutai == 1)
+        if (jyoutai == 0)//左から接近
         {
-            if (Player_move.x_zahyou > transform.position.x)
-            {
-                speed = 1;
-                jyoutai = 3;
-                speed2 = -1;
-            }
+            IdouR();//移動プログラム
+        }else if(jyoutai == 1)//右から接近
+        {
+            IdouL();
+        } else if(jyoutai == 2)//左から来た場合の回避
+        {
+            Idou2();
+        }else if(jyoutai == 3)//右から来た場合の回避
+        {
+            Idou3();
         }
-        if (jyoutai == 0)
+        if (zahyou.y < 0)
         {
-            if (Player_move.x_zahyou < transform.position.x)
+            if (jyoutai == 0)
             {
-                speed = -1;
-                jyoutai = 2;
-                speed2 = -1;
+                if (Player_move.x_zahyou < transform.position.x)
+                {
+                    Instantiate(tama, transform.position, transform.rotation);
+                    jyoutai = 2;
+                }
+            }
+            if (jyoutai == 1)
+            {
+                if (Player_move.x_zahyou > transform.position.x)
+                {
+                    Instantiate(tama, transform.position, transform.rotation);
+                    jyoutai = 3;
+                }
             }
         }
 
@@ -95,10 +119,21 @@ public class taruken : MonoBehaviour
         }
 
     }
-    void Idou()
+    void IdouR()//右に動く
     {
-        transform.Translate(1 * speed * Time.deltaTime, -1 * speed2 * Time.deltaTime, 0);
-
+        transform.Translate(3 * speed * Time.deltaTime, -4 * speed * Time.deltaTime, 0);
+    }
+    void IdouL()//左に動く
+    {
+        transform.Translate(-3 * speed * Time.deltaTime, -4 * speed * Time.deltaTime, 0);
+    }
+    void Idou2()//
+    {
+        transform.Translate(3 * speed2 * Time.deltaTime, 3 * speedy * Time.deltaTime, 0);
+    }
+    void Idou3()//
+    {
+        transform.Translate(3 * speed3 * Time.deltaTime, 3 * speedy * Time.deltaTime, 0);
     }
 
     void OnTriggerEnter2D(Collider2D c)
