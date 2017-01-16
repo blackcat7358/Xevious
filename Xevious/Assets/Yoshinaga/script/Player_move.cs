@@ -12,6 +12,7 @@ public class Player_move : MonoBehaviour {
     public float TimeOut = 0.5f;
     public float TimeElapsed;
 	public GameObject bullet;
+	public GameObject blaster;
 
 
     // Use this for initialization
@@ -30,10 +31,19 @@ public class Player_move : MonoBehaviour {
 		{
             if (TimeElapsed >= TimeOut)
             {
-                    Instantiate(bullet, transform.position, transform.rotation);
+                Instantiate(bullet, transform.position, transform.rotation);
                 TimeElapsed = 0;
             }
         }
+
+		TimeElapsed += Time.deltaTime;
+		if (Input.GetKey (KeyCode.C)) {
+			if(TimeElapsed >= TimeOut)
+			{
+				Instantiate(blaster, transform.position, transform.rotation);
+				TimeElapsed = 0;
+			}
+		}
 
         Vector2 zahyou = transform.position;
         x_zahyou = zahyou.x;
