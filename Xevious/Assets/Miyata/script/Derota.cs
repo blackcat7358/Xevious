@@ -4,7 +4,6 @@ using System.Collections;
 public class Derota : MonoBehaviour {
 
     public float attack = 0;
-   // public float speed = 1;
    
     public GameObject tama;
 
@@ -15,7 +14,6 @@ public class Derota : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-       // transform.Translate(0, -1 * speed * Time.deltaTime, 0);
         if (this.transform.position.y >= -2.0f)
         {
             attack += Time.deltaTime;

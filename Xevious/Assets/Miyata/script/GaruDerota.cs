@@ -5,7 +5,6 @@ public class GaruDerota : MonoBehaviour
 {
 
     public float attack = 0;
-   // public float speed = 1;
 
     public GameObject tama;
 
@@ -18,7 +17,6 @@ public class GaruDerota : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // transform.Translate(0, -1 * speed * Time.deltaTime, 0);
 
         attack += Time.deltaTime;
         if (attack >= 1.0f)
