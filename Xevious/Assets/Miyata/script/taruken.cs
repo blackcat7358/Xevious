@@ -8,41 +8,22 @@ public class taruken : MonoBehaviour
     public float speed;//進行方向 1:左にいるとき -1:右にいるとき
     public float speed2;
     public float speed3;
-    public float speedy;
+    public int speedy;
     public float jyoutai = 0;//状態管理 0:左から接近 1:右から接近 2:右に回避 3:左に回避
     public float randam;
 
     public GameObject tama;
 
-
-    /* public float speed = 5.0f;
-     private Vector2 tarken;
-     */
     protected GameObject Player;
-
-
-    // public int flg = 0;
-    //public float Ppos, Tpos;
 
     // Use this for initialization
     void Start()
     {
-        // Player = GameObject.Find("Player");
-        /* tarken = Player.transform.position;
-         if (tarken.x < this.transform.position.x)
-         {
-             transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
-         }
-
-         if (Player.transform.position.y > 0)
-         {
-             tarken.y *= -1;
-         }*/
         randam = Random.Range(1.5f,-4.0f);
         speed2 = Random.Range(-1.0f,0);
         speed3 = Random.Range(0, 1.0f);
 
-        speedy = Random.Range(1.0f, 0);
+        speedy = Random.Range(1, -1);
 
         speed = 1;
 
@@ -59,25 +40,6 @@ public class taruken : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (flg == 0)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, new Vector2(tarken.x, tarken.y), speed * Time.deltaTime);
-
-            if (transform.position.y <= Player.transform.position.y)
-            {
-                flg = 1;
-            }
-        }
-        else if (flg == 1)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, new Vector2(tarken.x, tarken.y), -speed * Time.deltaTime);
-
-            if (transform.position.y > 4.75f)
-            {
-                Delete();
-            }
-        }*/
-
         Vector2 zahyou = transform.position;
         if (jyoutai == 0)//左から接近
         {
@@ -117,6 +79,16 @@ public class taruken : MonoBehaviour
             Wave.kazu--;
             Destroy(gameObject);
         }
+        if (zahyou.x > 5&&jyoutai==3)
+        {
+            Wave.kazu--;
+            Destroy(gameObject);
+        }
+        if (zahyou.x < -5&&jyoutai == 2)
+        {
+            Wave.kazu--;
+            Destroy(gameObject);
+        }
 
     }
     void IdouR()//右に動く
@@ -127,11 +99,11 @@ public class taruken : MonoBehaviour
     {
         transform.Translate(-3 * speed * Time.deltaTime, -4 * speed * Time.deltaTime, 0);
     }
-    void Idou2()//
+    void Idou2()//左に逃げる
     {
         transform.Translate(3 * speed2 * Time.deltaTime, 3 * speedy * Time.deltaTime, 0);
     }
-    void Idou3()//
+    void Idou3()//右に逃げる
     {
         transform.Translate(3 * speed3 * Time.deltaTime, 3 * speedy * Time.deltaTime, 0);
     }
@@ -143,8 +115,3 @@ public class taruken : MonoBehaviour
         //Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
     }
 }
-
-   /* void Delete()
-    {
-        Destroy(gameObject);
-    }*/

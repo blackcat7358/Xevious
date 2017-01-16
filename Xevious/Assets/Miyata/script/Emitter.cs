@@ -7,6 +7,12 @@ public class Emitter : MonoBehaviour
     public static int seisei = 0;
     public GameObject[] Waves;
 
+    void Start()
+    {
+        wave = 0;
+        seisei = 0;
+    }
+
     void Update()
     {
         if (wave == 0 && seisei == 0)
