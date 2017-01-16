@@ -20,6 +20,7 @@ public class Bakyura : MonoBehaviour {
 
         if (zahyou.y < -4.75f)
         {
+            Wave.kazu--;
             Destroy(gameObject);
         }
 
