@@ -24,11 +24,15 @@ public class tama : MonoBehaviour {
         {
             Destroy(gameObject);
         }
-
     }
     void Idou()
     {
         transform.Translate(/*3 * speed * Time.deltaTime*/0, 5 * Time.deltaTime, 0);
+    }
+    void OnTriggerEnter2D(Collider2D c)
+    {
+
+        Destroy(gameObject);        //自機を削除
     }
 
 }
