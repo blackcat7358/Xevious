@@ -13,8 +13,7 @@ public class Player_move : MonoBehaviour {
     public float TimeElapsed;
 	public GameObject bullet;
 	public GameObject blaster;
-
-
+	
     // Use this for initialization
     void Start () {
 
@@ -37,8 +36,9 @@ public class Player_move : MonoBehaviour {
         }
 
 		TimeElapsed += Time.deltaTime;
-		if (Input.GetKey (KeyCode.C)) {
-			if(TimeElapsed >= TimeOut)
+		if(Input.GetKeyDown(KeyCode.C))
+		{
+			if (TimeElapsed >= TimeOut)
 			{
 				Instantiate(blaster, transform.position, transform.rotation);
 				TimeElapsed = 0;
