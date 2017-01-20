@@ -5,7 +5,6 @@ public class Logram : MonoBehaviour
 {
 
     public int random;
-    //public float speed;
     public float attack = 0;
 
     public GameObject tama;
