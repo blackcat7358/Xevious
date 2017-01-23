@@ -17,12 +17,14 @@ public class GaruDerota : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        attack += Time.deltaTime;
-        if (attack >= 1.0f)
+        if (transform.position.y <= 4.8f)
         {
-            Instantiate(tama, transform.position, transform.rotation);
-            attack = 0;
+            attack += Time.deltaTime;
+            if (attack >= 1.0f)
+            {
+                Instantiate(tama, transform.position, transform.rotation);
+                attack = 0;
+            }
         }
 
     }

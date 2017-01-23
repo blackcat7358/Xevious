@@ -19,20 +19,23 @@ public class Logram : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        attack += Time.deltaTime;
-        if (attack >= Trandom)
+        if (transform.position.y <= 4.8f)
         {
-            Arandom = Random.Range(0, 4);
-            switch (Arandom)
+            attack += Time.deltaTime;
+            if (attack >= Trandom)
             {
-                case 0:
-                    Instantiate(tama, transform.position, transform.rotation);
-                    break;
-                default:
-                    break;
+                Arandom = Random.Range(0, 4);
+                switch (Arandom)
+                {
+                    case 0:
+                        Instantiate(tama, transform.position, transform.rotation);
+                        break;
+                    default:
+                        break;
+                }
+                Trandom = Random.Range(0.5f, 1.5f);
+                attack = 0;
             }
-            Trandom = Random.Range(0.5f, 1.5f);
-            attack = 0;
         }
 
 
