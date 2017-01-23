@@ -12,25 +12,27 @@ public class Blaster : MonoBehaviour {
 
 		//GetComponent<Rigidbody2D>().velocity = transform.up*speed;
 
-		Vector2 zahyou2 = transform.position;
-
-		zahyou = zahyou2.y;
-
 		Pointer = GameObject.Find ("Pointer");
 
 		Vector2 pointer = Pointer.transform.position;
 
 		pointer2 = pointer.y;
+
+		GetComponent<BoxCollider2D> ().enabled = false;
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
+		Vector2 zahyou2 = transform.position;
+
 		transform.Translate (0, 1 * speed * Time.deltaTime, 0);
 	
-		if(zahyou >= pointer2)
+		if(zahyou2.y >= pointer2)
 		{
+			GetComponent<BoxCollider2D>().enabled = true;
+
 			Destroy (gameObject);
 
 		}
