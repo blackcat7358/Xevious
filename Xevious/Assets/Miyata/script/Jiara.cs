@@ -26,31 +26,34 @@ public class Jiara : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-        Vector2 zahyou = transform.position;
-        Idou();//移動プログラム
-
-        if (jyoutai == 1)
+        if (transform.position.y <= 4.8f)
         {
-            if (Player_move.x_zahyou > transform.position.x)
+
+            Vector2 zahyou = transform.position;
+            Idou();//移動プログラム
+
+            if (jyoutai == 1)
             {
-                speed = 1;
-                jyoutai = 3;
+                if (Player_move.x_zahyou > transform.position.x)
+                {
+                    speed = 1;
+                    jyoutai = 3;
+                }
             }
-        }
-        if (jyoutai == 0)
-        {
-            if (Player_move.x_zahyou < transform.position.x)
+            if (jyoutai == 0)
             {
-                speed = -1;
-                jyoutai = 2;
+                if (Player_move.x_zahyou < transform.position.x)
+                {
+                    speed = -1;
+                    jyoutai = 2;
+                }
             }
-        }
 
-        if (zahyou.y < -4.75f)
-        {
-            Wave.kazu--;
-            Destroy(gameObject);
+            if (zahyou.y < -4.75f)
+            {
+                Wave.kazu--;
+                Destroy(gameObject);
+            }
         }
 
 

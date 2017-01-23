@@ -40,54 +40,60 @@ public class taruken : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 zahyou = transform.position;
-        if (jyoutai == 0)//左から接近
+        if (transform.position.y <= 4.8f)
         {
-            IdouR();//移動プログラム
-        }else if(jyoutai == 1)//右から接近
-        {
-            IdouL();
-        } else if(jyoutai == 2)//左から来た場合の回避
-        {
-            Idou2();
-        }else if(jyoutai == 3)//右から来た場合の回避
-        {
-            Idou3();
-        }
-        if (zahyou.y < 0)
-        {
-            if (jyoutai == 0)
+            Vector2 zahyou = transform.position;
+            if (jyoutai == 0)//左から接近
             {
-                if (Player_move.x_zahyou < transform.position.x)
+                IdouR();//移動プログラム
+            }
+            else if (jyoutai == 1)//右から接近
+            {
+                IdouL();
+            }
+            else if (jyoutai == 2)//左から来た場合の回避
+            {
+                Idou2();
+            }
+            else if (jyoutai == 3)//右から来た場合の回避
+            {
+                Idou3();
+            }
+            if (zahyou.y < 0)
+            {
+                if (jyoutai == 0)
                 {
-                    Instantiate(tama, transform.position, transform.rotation);
-                    jyoutai = 2;
+                    if (Player_move.x_zahyou < transform.position.x)
+                    {
+                        Instantiate(tama, transform.position, transform.rotation);
+                        jyoutai = 2;
+                    }
+                }
+                if (jyoutai == 1)
+                {
+                    if (Player_move.x_zahyou > transform.position.x)
+                    {
+                        Instantiate(tama, transform.position, transform.rotation);
+                        jyoutai = 3;
+                    }
                 }
             }
-            if (jyoutai == 1)
-            {
-                if (Player_move.x_zahyou > transform.position.x)
-                {
-                    Instantiate(tama, transform.position, transform.rotation);
-                    jyoutai = 3;
-                }
-            }
-        }
 
-        if (zahyou.y > 10.75f)
-        {
-            Wave.kazu--;
-            Destroy(gameObject);
-        }
-        if (zahyou.x > 5&&jyoutai==3)
-        {
-            Wave.kazu--;
-            Destroy(gameObject);
-        }
-        if (zahyou.x < -5&&jyoutai == 2)
-        {
-            Wave.kazu--;
-            Destroy(gameObject);
+            if (zahyou.y > 10.75f)
+            {
+                Wave.kazu--;
+                Destroy(gameObject);
+            }
+            if (zahyou.x > 5 && jyoutai == 3)
+            {
+                Wave.kazu--;
+                Destroy(gameObject);
+            }
+            if (zahyou.x < -5 && jyoutai == 2)
+            {
+                Wave.kazu--;
+                Destroy(gameObject);
+            }
         }
 
     }

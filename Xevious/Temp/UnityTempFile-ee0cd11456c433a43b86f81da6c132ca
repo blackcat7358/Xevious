@@ -76,6 +76,7 @@
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_WIN
 -define:UNITY_TEAM_LICENSE
+Assets/Miyata/script/AndorGenesis.cs
 Assets/Miyata/script/BackGround.cs
 Assets/Miyata/script/Bakyura.cs
 Assets/Miyata/script/Derota.cs
@@ -95,6 +96,7 @@ Assets/Miyata/script/Zakato.cs
 Assets/Miyata/script/tama.cs
 Assets/Miyata/script/taruken.cs
 Assets/Miyata/script/toroido.cs
+Assets/Yoshinaga/script/Blaster.cs
 Assets/Yoshinaga/script/Bullet.cs
 Assets/Yoshinaga/script/Player_move.cs
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"

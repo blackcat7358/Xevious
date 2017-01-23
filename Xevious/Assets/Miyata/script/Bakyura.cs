@@ -14,14 +14,17 @@ public class Bakyura : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Idou();
-
-        Vector2 zahyou = transform.position;
-
-        if (zahyou.y < -4.75f)
+        if (transform.position.y <= 4.8f)
         {
-            Wave.kazu--;
-            Destroy(gameObject);
+            Idou();
+
+            Vector2 zahyou = transform.position;
+
+            if (zahyou.y < -4.75f)
+            {
+                Wave.kazu--;
+                Destroy(gameObject);
+            }
         }
 
     }

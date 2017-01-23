@@ -25,15 +25,18 @@ public class Gidosupario : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-        Vector2 zahyou = transform.position;
-
-        Idou();
-
-        if (zahyou.y < -4.75f)
+        if (transform.position.y <= 4.8f)
         {
-            Wave.kazu--;
-            Destroy(gameObject);
+
+            Vector2 zahyou = transform.position;
+
+            Idou();
+
+            if (zahyou.y < -4.75f)
+            {
+                Wave.kazu--;
+                Destroy(gameObject);
+            }
         }
 
     }

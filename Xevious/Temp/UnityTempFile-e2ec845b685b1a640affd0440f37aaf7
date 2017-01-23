@@ -5,8 +5,6 @@
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
 -r:"C:/Program Files/Unity/Editor/Data\Managed/Mono.Cecil.dll"
 -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
@@ -78,14 +76,18 @@
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_WIN
 -define:UNITY_TEAM_LICENSE
+Assets/Miyata/script/AndorGenesis.cs
 Assets/Miyata/script/BackGround.cs
 Assets/Miyata/script/Bakyura.cs
 Assets/Miyata/script/Derota.cs
+Assets/Miyata/script/Domogram.cs
 Assets/Miyata/script/Emitter.cs
 Assets/Miyata/script/GaruDerota.cs
 Assets/Miyata/script/Gidosupario.cs
+Assets/Miyata/script/Grobda.cs
 Assets/Miyata/script/Jiara.cs
 Assets/Miyata/script/Logram.cs
+Assets/Miyata/script/PlayerController.cs
 Assets/Miyata/script/SceneTitleBuck.cs
 Assets/Miyata/script/Scenemove.cs
 Assets/Miyata/script/Wave.cs
@@ -94,8 +96,8 @@ Assets/Miyata/script/Zakato.cs
 Assets/Miyata/script/tama.cs
 Assets/Miyata/script/taruken.cs
 Assets/Miyata/script/toroido.cs
+Assets/Yoshinaga/script/Blaster.cs
 Assets/Yoshinaga/script/Bullet.cs
-Assets/Yoshinaga/script/PlayerController.cs
 Assets/Yoshinaga/script/Player_move.cs
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
