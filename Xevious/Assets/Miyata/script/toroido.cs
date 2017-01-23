@@ -14,45 +14,47 @@ public class toroido : MonoBehaviour {
     {
         if (Player_move.x_zahyou > transform.position.x)
         {
-            speed_x = 1;
-            speed_y = 3;
+            speed_x = 0.7f;
+            speed_y = 1.5f;
             jyoutai = 0;
         }else if(Player_move.x_zahyou < transform.position.x)
         {
-            speed_x = -1;
-            speed_y = 3;
+            speed_x = -0.7f;
+            speed_y = 1.5f;
             jyoutai = 1;
         }
     }
 
 	// Update is called once per frame
 	void Update () {
-
-        Vector2 zahyou = transform.position;
-
-        Idou();//移動プログラム
-
-        if(jyoutai == 1)
+        if (transform.position.y < 4.85f)
         {
-            if (Player_move.x_zahyou > transform.position.x)
+            Vector2 zahyou = transform.position;
+
+            Idou();//移動プログラム
+
+            if (jyoutai == 1)
             {
-                speed_x = 2;
-                jyoutai = 3;
+                if (Player_move.x_zahyou > transform.position.x)
+                {
+                    speed_x = 2;
+                    jyoutai = 3;
+                }
             }
-        }
-        if(jyoutai == 0)
-        {
-            if(Player_move.x_zahyou < transform.position.x)
+            if (jyoutai == 0)
             {
-                speed_x = -2;
-                jyoutai = 2;
+                if (Player_move.x_zahyou < transform.position.x)
+                {
+                    speed_x = -2;
+                    jyoutai = 2;
+                }
             }
-        }
 
-        if (zahyou.y < -4.75f)
-        {
-            Wave.kazu--;
-            Destroy(gameObject);
+            if (zahyou.y < -4.75f)
+            {
+                Wave.kazu--;
+                Destroy(gameObject);
+            }
         }
 
     }
