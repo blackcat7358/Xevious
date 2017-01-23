@@ -31,11 +31,15 @@ public class Blaster : MonoBehaviour {
 	
 		if(zahyou2.y >= pointer2)
 		{
-			GetComponent<BoxCollider2D>().enabled = true;
+			//GetComponent<BoxCollider2D>().enabled = true;
 
 			Destroy (gameObject);
 
 		}
-
+	}
+	void OnTriggerEnter2D(Collider2D c)
+	{
+		Destroy(gameObject);        //自機を削除
+		//Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
 	}
 }
