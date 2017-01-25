@@ -101,5 +101,6 @@ Assets/Miyata/script/toroido.cs
 Assets/Yoshinaga/script/Blaster.cs
 Assets/Yoshinaga/script/Bullet.cs
 Assets/Yoshinaga/script/Player_move.cs
+Assets/Yoshinaga/script/Score.cs
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"

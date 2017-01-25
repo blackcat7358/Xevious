@@ -68,6 +68,7 @@
      <Compile Include="Assets\Yoshinaga\script\Blaster.cs" />
      <Compile Include="Assets\Yoshinaga\script\Bullet.cs" />
      <Compile Include="Assets\Yoshinaga\script\Player_move.cs" />
+     <Compile Include="Assets\Yoshinaga\script\Score.cs" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
