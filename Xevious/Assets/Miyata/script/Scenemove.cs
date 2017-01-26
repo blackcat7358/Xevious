@@ -9,11 +9,9 @@ public class Scenemove : MonoBehaviour {
 	}
 
     // Update is called once per frame
-    void OnGUI()
-    {
-        if (GUI.Button(new Rect(225, 300, 100, 40), "Button"))
-        {
-            Application.LoadLevel("Scene01");
-        }
-    }
+	void Update(){
+		if(Input.GetKey(KeyCode.Space)){
+			Application.LoadLevel("Scene01");
+		}
+	}	
 }
