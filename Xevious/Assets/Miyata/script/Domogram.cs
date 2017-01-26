@@ -33,7 +33,7 @@ void Start()
             targetObject[i].transform.position.y - transform.position.y,
             targetObject[i].transform.position.x - transform.position.x);
 
-         if (transform.position.y < 4.75f)
+         if (transform.position.y < 5.3f)
          {
              // 現在位置をPositionに代入 
              Position = transform.position;
@@ -46,6 +46,12 @@ void Start()
              transform.position = Position;
 
          }
+
+         if(transform.position.x>5.0f|| transform.position.x < -5.0f|| 
+            transform.position.y < -5.5f)
+        {
+            Destroy(gameObject);
+        }
 
         
     }

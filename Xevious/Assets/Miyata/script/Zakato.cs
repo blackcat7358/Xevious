@@ -9,7 +9,7 @@ public class Zakato : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        Jiki = GameObject.Find("Player(Clone)");
+        Jiki = GameObject.Find("Player1(Clone)");
         var vec = (Jiki.transform.position - Teki.transform.position).normalized;
         var angle = (Mathf.Atan2(vec.y, vec.x) * Mathf.Rad2Deg) - 90.0f;
         Teki.transform.rotation = Quaternion.Euler(0.0f, 0.0f, angle);
@@ -36,7 +36,7 @@ public class Zakato : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D c)
     {
-        Wave.kazu--;
+        //Wave.kazu--;
         Destroy(gameObject);        //自機を削除
         //Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
     }

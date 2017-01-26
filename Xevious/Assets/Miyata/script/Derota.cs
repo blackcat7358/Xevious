@@ -31,4 +31,10 @@ public class Derota : MonoBehaviour
             }
         }
     }
+
+    void OnTriggerEnter2D(Collider2D c)
+    {
+        Destroy(gameObject);        //自機を削除
+                                    //Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
+    }
 }
