@@ -2,6 +2,14 @@
 <<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Yoshinaga\script\Player_move.cs">
+    <Files>
+      <File FileName="Assets\Yoshinaga\script\Player_move.cs" Line="1" Column="1" />
+      <File FileName="Assets\Yoshinaga\script\Blaster.cs" Line="1" Column="1" />
+      <File FileName="Assets\Miyata\script\PlayerController.cs" Line="1" Column="1" />
+=======
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Yoshinaga\script\Player_move.cs">
 =======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 <<<<<<< HEAD
@@ -23,6 +31,7 @@
       <File FileName="Assets\Miyata\script\Scenemove.cs" Line="18" Column="4" />
 >>>>>>> 4218bcd6a898e9c6de997f0c0375661efdcf8dd0
 >>>>>>> 8ed0bc178f5d296994125fa415a6ec56f3eed063
+>>>>>>> eb52802363570c685eae1ef0ee562a8464448d17
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
