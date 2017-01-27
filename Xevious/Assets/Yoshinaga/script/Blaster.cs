@@ -42,11 +42,14 @@ public class Blaster : MonoBehaviour {
 			Destroy (gameObject);
 		}
 	}
+<<<<<<< HEAD
 /*	void OnTriggerEnter2D(Collider2D c)
 	{
 		Destroy(gameObject);        //自機を削除
 		//Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
 	}*/
+=======
+>>>>>>> efc60fcb71561bbb161a5e882fae91fd996f2d82
 
     void OnTriggerEnter2D(Collider2D c)
     {
