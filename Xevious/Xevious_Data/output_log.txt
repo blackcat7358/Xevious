@@ -10,17 +10,27 @@ Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Man
 Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Advertisements.dll (this message is harmless)
+Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Advertisements.dll into Unity Child Domain
 Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.041 seconds
+- Completed reload, in  0.060 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1b88 -> priority: 1 
-  Thread -> id: 1424 -> priority: 1 
+  Thread -> id: 24ac -> priority: 1 
+  Thread -> id: 24b0 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 29.888203 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1121.
+Total: 1.486589 ms (FindLiveObjects: 0.177766 ms CreateObjectMapping: 0.292719 ms MarkObjects: 0.995986 ms  DeleteObjects: 0.018474 ms)
+

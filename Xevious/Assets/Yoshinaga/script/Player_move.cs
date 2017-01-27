@@ -13,10 +13,11 @@ public class Player_move : MonoBehaviour {
     public float TimeElapsed;
 	public GameObject bullet;
 	public GameObject blaster;
+   
 	
     // Use this for initialization
     void Start () {
-
+      
 	
 	}
 	
@@ -41,6 +42,7 @@ public class Player_move : MonoBehaviour {
 			if (TimeElapsed >= TimeOut)
 			{
 				Instantiate(blaster, transform.position, transform.rotation);
+               
 				TimeElapsed = 0;
 			}
 		}

@@ -52,11 +52,17 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -72,6 +78,7 @@
     <Compile Include="Assets\Miyata\script\AndorGenesis.cs" />
     <Compile Include="Assets\Miyata\script\BackGround.cs" />
     <Compile Include="Assets\Miyata\script\Bakyura.cs" />
+    <Compile Include="Assets\Miyata\script\Barra.cs" />
     <Compile Include="Assets\Miyata\script\Derota.cs" />
     <Compile Include="Assets\Miyata\script\Domogram.cs" />
     <Compile Include="Assets\Miyata\script\Emitter.cs" />
@@ -83,15 +90,19 @@
     <Compile Include="Assets\Miyata\script\PlayerController.cs" />
     <Compile Include="Assets\Miyata\script\SceneTitleBuck.cs" />
     <Compile Include="Assets\Miyata\script\Scenemove.cs" />
+    <Compile Include="Assets\Miyata\script\Spawn.cs" />
+    <Compile Include="Assets\Miyata\script\Sporn.cs" />
     <Compile Include="Assets\Miyata\script\Wave.cs" />
     <Compile Include="Assets\Miyata\script\WaveController.cs" />
     <Compile Include="Assets\Miyata\script\Zakato.cs" />
+    <Compile Include="Assets\Miyata\script\Zolbak.cs" />
     <Compile Include="Assets\Miyata\script\tama.cs" />
     <Compile Include="Assets\Miyata\script\taruken.cs" />
     <Compile Include="Assets\Miyata\script\toroido.cs" />
     <Compile Include="Assets\Yoshinaga\script\Blaster.cs" />
     <Compile Include="Assets\Yoshinaga\script\Bullet.cs" />
     <Compile Include="Assets\Yoshinaga\script\Player_move.cs" />
+    <Compile Include="Assets\Yoshinaga\script\Score.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

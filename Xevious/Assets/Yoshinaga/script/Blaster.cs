@@ -6,6 +6,7 @@ public class Blaster : MonoBehaviour {
 	public float zahyou;
 	public GameObject Pointer;
 	public float pointer2;
+    public bool flg = false;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +19,9 @@ public class Blaster : MonoBehaviour {
 
 		pointer2 = pointer.y;
 
-		GetComponent<BoxCollider2D> ().enabled = false;
+        //GetComponent<Blaster>().enabled = false;
+
+		GetComponent<CircleCollider2D> ().enabled = false;
 	
 	}
 	
@@ -28,13 +31,20 @@ public class Blaster : MonoBehaviour {
 		Vector2 zahyou2 = transform.position;
 
 		transform.Translate (0, 1 * speed * Time.deltaTime, 0);
+
+        if (zahyou2.y >= pointer2 - 0.3f)
+        {
+            GetComponent<CircleCollider2D>().enabled = true;
+        }
 	
 		if(zahyou2.y >= pointer2)
 		{
+<<<<<<< HEAD
+=======
 			//GetComponent<BoxCollider2D>().enabled = true;
 
+>>>>>>> 4218bcd6a898e9c6de997f0c0375661efdcf8dd0
 			Destroy (gameObject);
-
 		}
 	}
 	void OnTriggerEnter2D(Collider2D c)
@@ -42,4 +52,12 @@ public class Blaster : MonoBehaviour {
 		Destroy(gameObject);        //自機を削除
 		//Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
 	}
+
+    void OnTriggerEnter2D(Collider2D c)
+    {
+        Destroy(gameObject);        //自機を削除
+        Destroy(c.gameObject);                            //Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
+    }
+
+
 }

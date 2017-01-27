@@ -23,52 +23,49 @@ public class Jiara : MonoBehaviour {
         }
 
     }
-	
-	// Update is called once per frame
-	void Update () {
-        if (transform.position.y <= 4.8f)
+
+    // Update is called once per frame
+    void Update()
+    {
+
+
+        Vector2 zahyou = transform.position;
+        Idou();//移動プログラム
+
+        if (jyoutai == 1)
         {
-
-            Vector2 zahyou = transform.position;
-            Idou();//移動プログラム
-
-            if (jyoutai == 1)
+            if (Player_move.x_zahyou > transform.position.x)
             {
-                if (Player_move.x_zahyou > transform.position.x)
-                {
-                    speed = 1;
-                    jyoutai = 3;
-                }
+                speed = 1;
+                jyoutai = 3;
             }
-            if (jyoutai == 0)
+        }
+        if (jyoutai == 0)
+        {
+            if (Player_move.x_zahyou < transform.position.x)
             {
-                if (Player_move.x_zahyou < transform.position.x)
-                {
-                    speed = -1;
-                    jyoutai = 2;
-                }
-            }
-
-            if (zahyou.y < -4.75f)
-            {
-                Wave.kazu--;
-                Destroy(gameObject);
+                speed = -1;
+                jyoutai = 2;
             }
         }
 
-
+        if (zahyou.y < -4.75f)
+        {
+            //Wave.kazu--;
+            Destroy(gameObject);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D c)
     {
-        Wave.kazu--;
+        //Wave.kazu--;
         Destroy(gameObject);        //自機を削除
         //Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
     }
 
     void Idou()
     {
-        transform.Translate(1 * speed * Time.deltaTime, -1 * Time.deltaTime, 0);
+        transform.Translate(1 * speed * Time.deltaTime, -5 * Time.deltaTime, 0);
         move++;
     }
 

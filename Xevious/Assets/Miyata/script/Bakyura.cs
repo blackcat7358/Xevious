@@ -11,27 +11,24 @@ public class Bakyura : MonoBehaviour {
     void Start () {
 
 	}
-	
-	// Update is called once per frame
-	void Update () {
-        if (transform.position.y <= 4.8f)
+
+    // Update is called once per frame
+    void Update()
+    {
+        Idou();
+
+        Vector2 zahyou = transform.position;
+
+        if (zahyou.y < -4.75f)
         {
-            Idou();
-
-            Vector2 zahyou = transform.position;
-
-            if (zahyou.y < -4.75f)
-            {
-                Wave.kazu--;
-                Destroy(gameObject);
-            }
+            //Wave.kazu--;
+            Destroy(gameObject);
         }
-
     }
 
     void Idou()
     {
-        transform.Translate(0, -1 * Time.deltaTime, 0);
+        transform.Translate(0, -1.5f * Time.deltaTime, 0);
         move++;
     }
 }

@@ -3,23 +3,19 @@ using System.Collections;
 
 public class Wave : MonoBehaviour {
 
-    public static int kazu;
-
 	// Use this for initialization
 	void Start () {
-
-        kazu = 3;
-	
+        //gameObject.SetActive(true);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if(kazu <= 0)
+        if (transform.position.x > 5.0f || transform.position.x < -5.0f ||
+            transform.position.y < -5.5f)
         {
-            Emitter.wave++;
-        Destroy(gameObject);
+            //gameObject.SetActive(false);
+            Destroy(gameObject);
         }
-        //
-	
-	}
+
+    }
 }
