@@ -8,7 +8,11 @@ public class Score : MonoBehaviour {
 	public Text scoreText;
 
 	void Start(){
-		scoreText.text = "0";
+<<<<<<< HEAD
+		//scoreText.text = "0";
+=======
+		scoreText.text = "jbhfhcfcvh";
+>>>>>>> 941fa967a14a89c797e7cc1cf17613cdb0612a18
 	}
 	void Update(){
 

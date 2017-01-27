@@ -48,6 +48,7 @@
      <Compile Include="Assets\Miyata\script\AndorGenesis.cs" />
      <Compile Include="Assets\Miyata\script\BackGround.cs" />
      <Compile Include="Assets\Miyata\script\Bakyura.cs" />
+     <Compile Include="Assets\Miyata\script\Barra.cs" />
      <Compile Include="Assets\Miyata\script\Derota.cs" />
      <Compile Include="Assets\Miyata\script\Domogram.cs" />
      <Compile Include="Assets\Miyata\script\Emitter.cs" />
@@ -59,9 +60,12 @@
      <Compile Include="Assets\Miyata\script\PlayerController.cs" />
      <Compile Include="Assets\Miyata\script\SceneTitleBuck.cs" />
      <Compile Include="Assets\Miyata\script\Scenemove.cs" />
+     <Compile Include="Assets\Miyata\script\Spawn.cs" />
+     <Compile Include="Assets\Miyata\script\Sporn.cs" />
      <Compile Include="Assets\Miyata\script\Wave.cs" />
      <Compile Include="Assets\Miyata\script\WaveController.cs" />
      <Compile Include="Assets\Miyata\script\Zakato.cs" />
+     <Compile Include="Assets\Miyata\script\Zolbak.cs" />
      <Compile Include="Assets\Miyata\script\tama.cs" />
      <Compile Include="Assets\Miyata\script\taruken.cs" />
      <Compile Include="Assets\Miyata\script\toroido.cs" />
