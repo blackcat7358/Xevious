@@ -8,7 +8,7 @@ public class Score : MonoBehaviour {
 	public Text scoreText;
 
 	void Start(){
-		scoreText.text = "0";
+		//scoreText.text = "0";
 	}
 	void Update(){
 

@@ -39,18 +39,8 @@ public class Blaster : MonoBehaviour {
 	
 		if(zahyou2.y >= pointer2)
 		{
-<<<<<<< HEAD
-=======
-			//GetComponent<BoxCollider2D>().enabled = true;
-
->>>>>>> 4218bcd6a898e9c6de997f0c0375661efdcf8dd0
 			Destroy (gameObject);
 		}
-	}
-	void OnTriggerEnter2D(Collider2D c)
-	{
-		Destroy(gameObject);        //自機を削除
-		//Destroy(c.gameObject);  //衝突した相手(敵の弾)の削除
 	}
 
     void OnTriggerEnter2D(Collider2D c)
