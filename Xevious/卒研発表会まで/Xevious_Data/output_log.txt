@@ -6,568 +6,73 @@ Direct3D:
     Vendor:   Intel
     VRAM:     896 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Advertisements.dll (this message is harmless)
-Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Advertisements.dll into Unity Child Domain
-Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.045 seconds
+Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\UnityEngine.Advertisements.dll (this message is harmless)
+Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\UnityEngine.Advertisements.dll into Unity Child Domain
+Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.230 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\Xevious_Data\Managed\System.dll (this message is harmless)
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
+Platform assembly: C:\Users\nwuser.DA\Documents\Xevious\Xevious\卒研発表会まで\Xevious_Data\Managed\System.dll (this message is harmless)
+The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/卒研発表会まで/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
 [Position out of bounds!]
  
 (Filename:  Line: 241)
 
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
+The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/卒研発表会まで/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
 [Position out of bounds!]
  
 (Filename:  Line: 241)
 
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
+The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/卒研発表会まで/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
 [Position out of bounds!]
  
 (Filename:  Line: 241)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2088 -> priority: 1 
-  Thread -> id: 2090 -> priority: 1 
+  Thread -> id: 1a0c -> priority: 1 
+  Thread -> id: 15e0 -> priority: 1 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 11.122528 ms
+UnloadTime: 4.259010 ms
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1103.
-Total: 0.663032 ms (FindLiveObjects: 0.100173 ms CreateObjectMapping: 0.067740 ms MarkObjects: 0.442158 ms  DeleteObjects: 0.051318 ms)
+Total: 0.383039 ms (FindLiveObjects: 0.063634 ms CreateObjectMapping: 0.039001 ms MarkObjects: 0.254538 ms  DeleteObjects: 0.025043 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.987866 ms
+UnloadTime: 2.030563 ms
 
 Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 123.
-Total: 0.619104 ms (FindLiveObjects: 0.055423 ms CreateObjectMapping: 0.061581 ms MarkObjects: 0.323510 ms  DeleteObjects: 0.176124 ms)
+Total: 0.582155 ms (FindLiveObjects: 0.040233 ms CreateObjectMapping: 0.061581 ms MarkObjects: 0.313247 ms  DeleteObjects: 0.165860 ms)
 
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
+The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/卒研発表会まで/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
 [Position out of bounds!]
  
 (Filename:  Line: 241)
 
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
+The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/卒研発表会まで/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
 [Position out of bounds!]
  
 (Filename:  Line: 241)
 
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
+The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/卒研発表会まで/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
 [Position out of bounds!]
  
 (Filename:  Line: 241)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.307499 ms
+UnloadTime: 0.270550 ms
 
 Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 219.
-Total: 0.308731 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.009442 ms MarkObjects: 0.274655 ms  DeleteObjects: 0.004516 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.520254 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1137.
-Total: 1.357267 ms (FindLiveObjects: 0.141638 ms CreateObjectMapping: 0.107152 ms MarkObjects: 1.028829 ms  DeleteObjects: 0.078414 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.843764 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 157.
-Total: 0.837515 ms (FindLiveObjects: 0.059529 ms CreateObjectMapping: 0.061992 ms MarkObjects: 0.547258 ms  DeleteObjects: 0.167092 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.281224 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 219.
-Total: 0.279171 ms (FindLiveObjects: 0.016011 ms CreateObjectMapping: 0.009442 ms MarkObjects: 0.249612 ms  DeleteObjects: 0.003694 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.200027 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1137.
-Total: 1.195511 ms (FindLiveObjects: 0.150260 ms CreateObjectMapping: 0.102636 ms MarkObjects: 0.862147 ms  DeleteObjects: 0.078414 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.017836 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.859684 ms (FindLiveObjects: 0.055423 ms CreateObjectMapping: 0.064455 ms MarkObjects: 0.571480 ms  DeleteObjects: 0.166681 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.271371 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.283277 ms (FindLiveObjects: 0.016832 ms CreateObjectMapping: 0.009032 ms MarkObjects: 0.252896 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.783733 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 0.488961 ms (FindLiveObjects: 0.083751 ms CreateObjectMapping: 0.029148 ms MarkObjects: 0.348554 ms  DeleteObjects: 0.026685 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.880714 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.903613 ms (FindLiveObjects: 0.059529 ms CreateObjectMapping: 0.064045 ms MarkObjects: 0.609661 ms  DeleteObjects: 0.167913 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.301751 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.309141 ms (FindLiveObjects: 0.028327 ms CreateObjectMapping: 0.009442 ms MarkObjects: 0.266034 ms  DeleteObjects: 0.004516 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.366709 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 1.607289 ms (FindLiveObjects: 0.203220 ms CreateObjectMapping: 0.276297 ms MarkObjects: 1.049357 ms  DeleteObjects: 0.076361 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.783825 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.860095 ms (FindLiveObjects: 0.054192 ms CreateObjectMapping: 0.070203 ms MarkObjects: 0.582976 ms  DeleteObjects: 0.150670 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.241811 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.284508 ms (FindLiveObjects: 0.018474 ms CreateObjectMapping: 0.009853 ms MarkObjects: 0.251665 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.097391 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 1.303896 ms (FindLiveObjects: 0.154776 ms CreateObjectMapping: 0.109205 ms MarkObjects: 0.940562 ms  DeleteObjects: 0.097710 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.634705 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.306267 ms (FindLiveObjects: 0.030790 ms CreateObjectMapping: 0.020116 ms MarkObjects: 0.201167 ms  DeleteObjects: 0.053371 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.298877 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.327616 ms (FindLiveObjects: 0.017242 ms CreateObjectMapping: 0.009442 ms MarkObjects: 0.296825 ms  DeleteObjects: 0.003694 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.459903 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 1.488231 ms (FindLiveObjects: 0.147386 ms CreateObjectMapping: 0.188440 ms MarkObjects: 1.077684 ms  DeleteObjects: 0.072256 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.883587 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.819040 ms (FindLiveObjects: 0.056655 ms CreateObjectMapping: 0.061581 ms MarkObjects: 0.546437 ms  DeleteObjects: 0.152723 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.267676 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.307088 ms (FindLiveObjects: 0.016832 ms CreateObjectMapping: 0.009442 ms MarkObjects: 0.275887 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.363835 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 1.456208 ms (FindLiveObjects: 0.153544 ms CreateObjectMapping: 0.106742 ms MarkObjects: 1.101086 ms  DeleteObjects: 0.094015 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.683651 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.802618 ms (FindLiveObjects: 0.055423 ms CreateObjectMapping: 0.062403 ms MarkObjects: 0.527552 ms  DeleteObjects: 0.155597 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.274655 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.307499 ms (FindLiveObjects: 0.036949 ms CreateObjectMapping: 0.009032 ms MarkObjects: 0.257823 ms  DeleteObjects: 0.003694 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.397911 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 1.552276 ms (FindLiveObjects: 0.162576 ms CreateObjectMapping: 0.192956 ms MarkObjects: 1.119971 ms  DeleteObjects: 0.075130 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.784144 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.388787 ms (FindLiveObjects: 0.033664 ms CreateObjectMapping: 0.025043 ms MarkObjects: 0.262749 ms  DeleteObjects: 0.066508 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.234832 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.286972 ms (FindLiveObjects: 0.017653 ms CreateObjectMapping: 0.009032 ms MarkObjects: 0.255359 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.503832 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 1.776435 ms (FindLiveObjects: 0.272602 ms CreateObjectMapping: 0.153133 ms MarkObjects: 1.257504 ms  DeleteObjects: 0.091141 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.836375 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.857221 ms (FindLiveObjects: 0.058297 ms CreateObjectMapping: 0.061581 ms MarkObjects: 0.582155 ms  DeleteObjects: 0.153133 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.247149 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.331721 ms (FindLiveObjects: 0.035717 ms CreateObjectMapping: 0.009032 ms MarkObjects: 0.281224 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.190995 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 3.212527 ms (FindLiveObjects: 0.159702 ms CreateObjectMapping: 0.107563 ms MarkObjects: 2.863973 ms  DeleteObjects: 0.078824 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.708603 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.357586 ms (FindLiveObjects: 0.026685 ms CreateObjectMapping: 0.020527 ms MarkObjects: 0.252896 ms  DeleteObjects: 0.057065 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.267265 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.318173 ms (FindLiveObjects: 0.018064 ms CreateObjectMapping: 0.009442 ms MarkObjects: 0.285740 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.129413 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 1.352751 ms (FindLiveObjects: 0.155186 ms CreateObjectMapping: 0.107563 ms MarkObjects: 1.008713 ms  DeleteObjects: 0.079646 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.812061 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.430663 ms (FindLiveObjects: 0.029148 ms CreateObjectMapping: 0.024632 ms MarkObjects: 0.299288 ms  DeleteObjects: 0.065276 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.263981 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.325974 ms (FindLiveObjects: 0.017653 ms CreateObjectMapping: 0.009853 ms MarkObjects: 0.293130 ms  DeleteObjects: 0.004516 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.851884 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 0.824788 ms (FindLiveObjects: 0.086625 ms CreateObjectMapping: 0.056244 ms MarkObjects: 0.638399 ms  DeleteObjects: 0.042696 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.816668 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.851063 ms (FindLiveObjects: 0.063224 ms CreateObjectMapping: 0.062813 ms MarkObjects: 0.566964 ms  DeleteObjects: 0.154776 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.282045 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.344038 ms (FindLiveObjects: 0.035717 ms CreateObjectMapping: 0.009032 ms MarkObjects: 0.294361 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.364246 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 2.206688 ms (FindLiveObjects: 0.216358 ms CreateObjectMapping: 0.300930 ms MarkObjects: 1.576909 ms  DeleteObjects: 0.110847 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.758371 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.921266 ms (FindLiveObjects: 0.054192 ms CreateObjectMapping: 0.061171 ms MarkObjects: 0.654821 ms  DeleteObjects: 0.149028 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.238527 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.333363 ms (FindLiveObjects: 0.028738 ms CreateObjectMapping: 0.009442 ms MarkObjects: 0.289845 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.476234 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 0.454475 ms (FindLiveObjects: 0.056655 ms CreateObjectMapping: 0.025453 ms MarkObjects: 0.345269 ms  DeleteObjects: 0.026685 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.905757 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.890886 ms (FindLiveObjects: 0.055013 ms CreateObjectMapping: 0.064045 ms MarkObjects: 0.617051 ms  DeleteObjects: 0.153544 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.259465 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.314478 ms (FindLiveObjects: 0.015600 ms CreateObjectMapping: 0.009442 ms MarkObjects: 0.284919 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.125718 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1138.
-Total: 1.343308 ms (FindLiveObjects: 0.164629 ms CreateObjectMapping: 0.102636 ms MarkObjects: 1.002965 ms  DeleteObjects: 0.071845 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.766992 ms
-
-Unloading 291 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 0.935225 ms (FindLiveObjects: 0.053371 ms CreateObjectMapping: 0.062403 ms MarkObjects: 0.660569 ms  DeleteObjects: 0.156828 ms)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-The file 'C:/Users/nwuser.DA/Documents/Xevious/Xevious/Xevious_Data/mainData' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
- 
-(Filename:  Line: 241)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.258233 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 220.
-Total: 0.330900 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.009442 ms MarkObjects: 0.297235 ms  DeleteObjects: 0.004105 ms)
+Total: 0.270550 ms (FindLiveObjects: 0.013958 ms CreateObjectMapping: 0.009442 ms MarkObjects: 0.243043 ms  DeleteObjects: 0.003284 ms)
 
