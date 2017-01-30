@@ -1,7 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xevious", "Xevious.csproj", "{8439DBC7-1482-2EEB-EB8A-27AE25F87277}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{503D9AA8-8AEA-B356-CBB1-6B824021703F}") = "Xevious", "Assembly-CSharp.csproj", "{0103B715-AA4E-AF19-1DFB-C5B41483729C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,16 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8439DBC7-1482-2EEB-EB8A-27AE25F87277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8439DBC7-1482-2EEB-EB8A-27AE25F87277}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8439DBC7-1482-2EEB-EB8A-27AE25F87277}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8439DBC7-1482-2EEB-EB8A-27AE25F87277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0103B715-AA4E-AF19-1DFB-C5B41483729C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0103B715-AA4E-AF19-1DFB-C5B41483729C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0103B715-AA4E-AF19-1DFB-C5B41483729C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0103B715-AA4E-AF19-1DFB-C5B41483729C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< HEAD
-																																																																																					GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																							GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																																																																																GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> eb52802363570c685eae1ef0ee562a8464448d17
@@ -41,6 +40,4 @@ Global
 		$3.scope = text/plain
 	EndGlobalSection
 
-=======
->>>>>>> 591e0db54bbc62e47e69f333f19ceea459f3a5e6
 EndGlobal
